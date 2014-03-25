@@ -1,11 +1,3 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
-{\fonttbl\f0\fnil\fcharset134 STHeitiSC-Light;}
-{\colortbl;\red255\green255\blue255;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww17280\viewh15000\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
-
-\f0\fs48 \cf0 PaintBoard --- drawing things and make images moving on canvas\
-\
 PaintBoard is written in python. In order to run the project, python and pygame need to be installed. There are the websites - Python(www.python.org) and Pygame (www.pygame.org). Download them and follow the instructions to install them. \
 \
 To start the project, open the "Project Source and Support Source" file and then open the "demo.py" , then run it in python IDEL. \
