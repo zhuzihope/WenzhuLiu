@@ -32,7 +32,4 @@ Menu Panel (Animations)- Right:\
 5. Add another different image on the canvas. Method is similar to the method1 to 4.\
 6. Change the direction or the speed of the image. Click the image which you want to change on the right panel first and then mouse press the arrows and the speed.\
 7. Change the position of images on the canvas. Click the image on the right panel first and then mouse press one position on the canvas. Then the image move to the position.\
-8. There are some instructions and notes here. \
-\
-\
-}
+8. There are some instructions and notes here. 
