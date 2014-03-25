@@ -1,0 +1,21 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
+{\fonttbl\f0\fnil\fcharset134 STHeitiSC-Light;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww17280\viewh15000\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\f0\fs48 \cf0 First is how to import the background and then draw on the background.\
+At first I just use one canvas without background, it is a white one so just use self.paper=(pygame.Surface(self.paper_rect.size,1)).convert(). Self.paper is the background which is showed on the canvas. When I want to change the background, I must load the image and then save it as self.paper. But after that, I could not draw on the background. Because the things which were drawer under the background. So I call the class self.brush = PaintBrush(self.paper) again after setting the background. And then the brush could draw.\
+\
+Second is when I want to load two image on the canvas, it is hard to let them move separately. To solve this problem, I used a lot of variables. For example, I stored self.move_left = False, self.sprite1_move = False and self.keep_move_left1 = False. When the mouse pressed the image of sprite 1, self.sprite1_move and self.keep_move_left1 turned to True. Then the mouse pressed the arrow of the direction and self.move_left turned to True. Next, the mouse pressed the canvas, if the self.move_left is True before, and if the self.sprite1_move is True, we could get the position where the sprite 1 would start to move. It is the place of mouse pressing on canvas. Now, we could store the sprite1's position and if only self.keep_move_left1 is True, it could move all the time. When mouse pressed the other image, just make self.sprite2_move to be True, so the new one's moving would not influence the old one. The change of speed is same as the change of direction.\
+\
+Third is using if and if not if and elif. Because sometimes the two case exist at the same time, if we just use if and elif, the elif would be ignored because the if would always be True. For example, \
+                        if self.sprite1_move:\
+                            self.keep_quick_speed1 = True\
+                            self.keep_slow_speed1 = False\
+                        if self.sprite2_move:\
+                            self.keep_quick_speed2 = True\
+                            self.keep_slow_speed2 = False\
+There exists one condition that the two sprites are both moving.\
+\
+Forth is the paintboard picture. I draw it using Photoshop and loaded it. Then load the position of each picture which is corresponding to character on the paintboard. Once we click the position, we know what to do according to the position.}

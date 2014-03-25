@@ -1,0 +1,103 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
+{\fonttbl\f0\fnil\fcharset134 STHeitiSC-Light;}
+{\colortbl;\red255\green255\blue255;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{lower-alpha\}.}{\leveltext\leveltemplateid101\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{lower-alpha\}.}{\leveltext\leveltemplateid201\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid301\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{lower-alpha\}.}{\leveltext\leveltemplateid401\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid5}
+{\list\listtemplateid6\listhybrid{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{lower-alpha\}.}{\leveltext\leveltemplateid501\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid6}
+{\list\listtemplateid7\listhybrid{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{lower-alpha\}.}{\leveltext\leveltemplateid601\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid7}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}{\listoverride\listid6\listoverridecount0\ls6}{\listoverride\listid7\listoverridecount0\ls7}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww16040\viewh14520\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\f0\fs48 \cf0 As the readme file says:\
+\
+Interface and How to use Paint Board\
+\
+First open it, you can see please use F1, F2 and F3 to choose one background. There are three choices, the night scene, the orange picture and a blank canvas.\
+\
+Menu Panel (Painting Brush)- Left :\
+Palette - mouse press on it, get one color\
+Knob - mouse press on the knob, change the transparency of color\
+1st Brush - draw like pencil\
+2nd Brush - draw like writing brush\
+3rd Brush - draw like dropper\
+4th Brush - draw break line\
+5th - an eraser\
+6th - an image of snow. Change the color of the snow, first click the image and then click on color on palette. Not change the color of the snow, just click the image and draw on canvas.\
+7th - an image of heart. \
+8th - an image of star.\
+9th - draw a regular line. First click the it and then mouse press on the canvas, according to the assistant line, release mouse until getting an ideal line.\
+10th - an image of moon\
+\
+Menu Panel (Animations)- Right:\
+1. Choose an image first.\
+2. Choose a direction.\
+3. Choose a speed (slow and quick).\
+4. Mouse press on the canvas, the image could move. \
+5. Add another different image on the canvas. Method as above.\
+6. Change the direction or the speed of the image. Click the image which you want to change on the right panel first and then mouse press the arrows and the speed.\
+7. Change the position of images on the canvas. Click the image on the right panel first and then mouse press one position on the canvas. Then the image move to the position.\
+8. There are some instructions and notes here. \
+\
+--------------------------------------------------------------------------------------------------\
+I have read a lot of other projects with \
+the painting function, as below.\
+\pard\pardeftab720\li720\fi-360\ri380\qj
+\ls1\ilvl0\cf0 \
+1.	An easy paint board\
+\pard\pardeftab720\ri380\qj
+\cf0      Feateures:\
+\pard\pardeftab720\li720\fi-360\ri380\qj
+\ls2\ilvl0\cf0 a.	Different knids of brushes. Users could choose the brush which they like.  There are different size brushes, brushes like ink brushes, brushes like paint spraying, brushes with some gaps and brushes with different cartoons. And users could also use scroll bar to change the brushes\'a1\'af size.\
+b.	Users could choose the color they like.\
+\pard\pardeftab720\ri380\qj
+\cf0   \
+     Aniti-features:\
+\pard\pardeftab720\li720\fi-360\ri380\qj
+\ls3\ilvl0\cf0 a.	There are only functions with brushes, but there is no eraser, background       colors to choose and a larger scale of color palette.\
+b.	The interface need to develop to be more friendly.\
+c.	Users could not draw a regular line. In one word, its function is limited.\
+\
+I add an easer and a window to\
+see the color which the user\
+choose. I write instruction on the\
+\pard\pardeftab720\li720\fi-360\ri380
+\ls3\ilvl0\cf0 paintboard so user could follow the\
+instruction overtime. Also, I add one\
+function that user could choose the\
+tool to draw a regular line. And one\
+more function is that user have 3\
+choices about background to\
+choose.\
+\pard\pardeftab720\li720\ri380\qj
+\cf0 \
+\pard\pardeftab720\li1080\ri380\qj
+\cf0 \
+\pard\pardeftab720\li720\fi-360\ri380\qj
+\ls4\ilvl0\cf0 2.  An animation\
+\pard\pardeftab720\li720\ri380\qj
+\cf0 \
+Features:\
+\pard\pardeftab720\li1080\fi-360\ri380\qj
+\ls5\ilvl0\cf0 a.	It shows an animated picture to users. The objects on the board could move from right to left or from left to right.\
+\pard\pardeftab720\li720\ri380\qj
+\cf0 \
+Anti-features:\
+\pard\pardeftab720\li1080\fi-360\ri380\qj
+\ls6\ilvl0\cf0 a.	The objects could only move horizontally.\
+b.	The objects is fixed so users could not change the speed of the objects, or the direction of moving.\
+c.	Users could not import other objects by themselves.\
+\
+I make the object which the user choose move 3 directions, left, right and down. And the user could change the moving speed in slow or quick. But user could not import image by own still.\
+\pard\pardeftab720\li1080\ri380\qj
+\cf0 \
+\pard\pardeftab720\li1080\fi-360\ri380\qj
+\ls7\ilvl0\cf0 \
+\pard\pardeftab720\li1080\ri380\qj
+\cf0 \
+\pard\pardeftab720\ri380\qj
+\cf0 \
+}
