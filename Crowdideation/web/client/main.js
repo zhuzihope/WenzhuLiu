@@ -36,14 +36,29 @@ var newIdea;
 Template.Page1.events({
     'keyup input#nextIdea': function (evt) {
         newIdea = $('#ideastorm input#nextIdea').val().trim();
+        $(document).ready(function(){
+            $('#nextIdea').keypress(function(e){
+              if(e.keyCode==13)
+              $('#submitIdea').click();
+            });
+        });
     },
+
     'click button.submitIdea': function () {
+        if (newIdea) {
+            Ideas.find().forEach(function (post) {
+                if (newIdea == post.idea) {
+                    newIdea = null;
+                }
+            });
+        }
         if (newIdea) {
             Ideas.insert({idea: newIdea, done: false, tag: ""});
             newIdea = null;
             document.getElementById('nextIdea').value = ""
         }
     },
+
     'click button.nextPage': function () {
         //Not working state machine yet
         Session.set("currentState", "Page2");
@@ -61,9 +76,23 @@ Template.Page2.events({
     //put tags
     'keyup input#nextTag': function (evt) {
         newTag = $('#ideastorm input#nextTag').val().trim();
+        $(document).ready(function(){
+            $('#nextTag').keypress(function(e){
+              if(e.keyCode==13)
+              $('#submitTag').click();
+            });
+        });
     },
 
     'click button.submitTag': function () {
+        if (newTag) {
+            Tags.find().forEach(function (post) {
+                if (newTag == post.tag) {
+                    newTag = null;
+                }
+            });
+        }
+
         if (newTag) {
             var color = getRandomColor();
             Tags.insert({tag: newTag, done: false, color: color});
@@ -80,6 +109,8 @@ Template.Page2.events({
             document.getElementById('nextTag').value = ""
         }
     },
+
+    
 
     'click button.getTag': function(){
 
